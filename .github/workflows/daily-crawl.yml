@@ -45,7 +45,8 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add public/data/trending.json
           git commit -m "chore: update trending data $(date +'%Y-%m-%d')"
-          git push || echo "Push failed, but continuing..."
+          git pull --rebase origin main || echo "Pull failed, but continuing..."
+          git push origin main || echo "Push failed, but continuing..."
 
       - name: Build Next.js for GitHub Pages
         run: npm run build
