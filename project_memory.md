@@ -57,9 +57,21 @@
 
 ### 待完成配置
 
-1. 在 GitHub 仓库中配置 Pages 部署源
-2. 手动触发首次 GitHub Actions 工作流
-3. 验证网站可访问
+1. ✅ 在 GitHub 仓库中配置 Pages 部署源 - 工作流已更新为使用官方 actions/deploy-pages
+2. ✅ 手动触发首次 GitHub Actions 工作流 - 已自动运行
+3. ⏳ 验证网站可访问 - 需要确认 GitHub Pages 已启用
+
+### 最新状态
+
+- **GitHub Actions 首次运行**: ✅ 成功
+  - 爬取数据时间：2026-05-13
+  - Commit SHA: `ad007df chore: update trending data 2026-05-13`
+  - 工作流已更新到 Node.js 24 + actions v5
+
+- **GitHub Pages 部署**:
+  - 工作流使用 `actions/deploy-pages@v4` 进行部署
+  - 需要在 GitHub 仓库 Settings → Pages 中确认部署状态
+  - 网站地址：https://sajhsdhfk.github.io/tech-news-dashboard/
 
 ### 项目目录结构
 
