@@ -46,4 +46,38 @@
 
 ## 变更记录
 
-（此处记录重要的架构或配置变更）
+### 2026-05-13 - 项目完成
+
+- **初始提交**: Commit SHA: `7cec41d`
+- **第二次提交**: Commit SHA: `b0f9759` - 删除重复的 types.ts 文件
+- **第三次提交**: Commit SHA: `9fa3fa8` - 添加 .next 到 gitignore
+- **构建验证**: Next.js 构建成功，无类型错误
+
+### 项目目录结构
+
+```
+tech-news-dashboard/
+├── .github/workflows/
+│   └── daily-crawl.yml       # GitHub Actions 工作流
+├── public/data/
+│   └── trending.json         # 爬虫数据输出
+├── scripts/
+│   └── crawler.ts            # 爬虫脚本
+├── src/
+│   ├── app/
+│   │   ├── globals.css       # 全局样式
+│   │   ├── layout.tsx        # 根布局
+│   │   └── page.tsx          # 首页
+│   ├── components/
+│   │   ├── Dashboard.tsx     # 仪表盘组件
+│   │   ├── Header.tsx        # 页头组件
+│   │   └── RepoCard.tsx      # 仓库卡片组件
+│   └── types/
+│       └── index.ts          # TypeScript 类型定义
+├── .gitignore
+├── next.config.js
+├── package.json
+├── project_memory.md
+├── tailwind.config.js
+└── tsconfig.json
+```
