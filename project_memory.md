@@ -55,23 +55,39 @@
 - **构建验证**: Next.js 构建成功，无类型错误
 - **代码推送**: 已推送到 GitHub 仓库 sajhsdhfk/tech-news-dashboard
 
-### 待完成配置
+### 2026-05-13 - 最终状态
 
-1. ✅ 在 GitHub 仓库中配置 Pages 部署源 - 工作流已更新为使用官方 actions/deploy-pages
-2. ✅ 手动触发首次 GitHub Actions 工作流 - 已自动运行
-3. ⏳ 验证网站可访问 - 需要确认 GitHub Pages 已启用
+**已完成的提交历史**（按时间顺序）：
 
-### 最新状态
+| SHA | 提交信息 |
+|-----|----------|
+| 7cec41d | Initial commit: Tech News Dashboard project setup |
+| b0f9759 | chore: remove duplicate types.ts file |
+| 9fa3fa8 | chore: add .next to gitignore |
+| 0a1f8cc | chore: remove .next build artifacts from tracking |
+| d5cf673 | docs: add README.md quickstart guide |
+| f0e2c5c | docs: update project_memory with final status and directory structure |
+| 71448dd | docs: update project_memory with push status |
+| c7fc377 | ci: update GitHub Actions to Node.js 24 and latest action versions |
+| 5f07560 | docs: update project_memory with latest status |
+| 3114145 | fix: improve git diff check and handle push failures gracefully |
+| db7c272 | fix: switch to peaceiris/actions-gh-pages for simpler deployment |
+| 8c4c9a5 | fix: add git pull --rebase before push to handle concurrent updates |
+| 15a3baa | feat: add simple deploy workflow for GitHub Pages |
+| d957a61 | fix: simplify deploy workflow, crawler failures won't block deploy |
+| fd0145c | remove broken daily-crawl workflow |
 
-- **GitHub Actions 首次运行**: ✅ 成功
-  - 爬取数据时间：2026-05-13
-  - Commit SHA: `ad007df chore: update trending data 2026-05-13`
-  - 工作流已更新到 Node.js 24 + actions v5
+**最终保留的工作流**：
+- `.github/workflows/deploy.yml` - 部署到 GitHub Pages（push 或手动触发）
 
-- **GitHub Pages 部署**:
-  - 工作流使用 `actions/deploy-pages@v4` 进行部署
-  - 需要在 GitHub 仓库 Settings → Pages 中确认部署状态
-  - 网站地址：https://sajhsdhfk.github.io/tech-news-dashboard/
+**待解决问题**：
+1. GitHub Actions 爬虫工作流因并发 git push 失败 - 已移除爬虫自动提交逻辑
+2. GitHub Pages 需要手动启用：Settings → Pages → Source: Deploy from a branch → Branch: main
+
+**下次继续的工作**：
+1. 在 GitHub 仓库设置中启用 GitHub Pages
+2. 测试爬虫脚本是否能正常抓取数据
+3. 验证网站页面能正确显示 trending 数据
 
 ### 项目目录结构
 
