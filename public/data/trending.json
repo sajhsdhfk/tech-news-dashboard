@@ -1,4 +1,195 @@
 {
-  "updatedAt": "2026-05-13T00:00:00.000Z",
-  "repositories": []
+  "updatedAt": "2026-05-13T14:57:26.837Z",
+  "repositories": [
+    {
+      "name": "tinyhumansai /\n\n      openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "builders": []
+    },
+    {
+      "name": "rohitg00 /\n\n      agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/rohitg00/agentmemory",
+      "builders": []
+    },
+    {
+      "name": "obra /\n\n      superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/obra/superpowers",
+      "builders": []
+    },
+    {
+      "name": "yikart /\n\n      AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/yikart/AiToEarn",
+      "builders": []
+    },
+    {
+      "name": "influxdata /\n\n      telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/influxdata/telegraf",
+      "builders": []
+    },
+    {
+      "name": "millionco /\n\n      react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/millionco/react-doctor",
+      "builders": []
+    },
+    {
+      "name": "K-Dense-AI /\n\n      scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "builders": []
+    },
+    {
+      "name": "danielmiessler /\n\n      Personal_AI_Infrastructure",
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "language": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "builders": []
+    },
+    {
+      "name": "supertone-inc /\n\n      supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/supertone-inc/supertonic",
+      "builders": []
+    },
+    {
+      "name": "CloakHQ /\n\n      CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "builders": []
+    },
+    {
+      "name": "Greedeks /\n\n      GTweak",
+      "description": "Portable Tool for an Ideal Windows Setup",
+      "language": "C#",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/Greedeks/GTweak",
+      "builders": []
+    },
+    {
+      "name": "mattpocock /\n\n      skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/mattpocock/skills",
+      "builders": []
+    },
+    {
+      "name": "ArthurBrussee /\n\n      brush",
+      "description": "3D Reconstruction for all",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/ArthurBrussee/brush",
+      "builders": []
+    },
+    {
+      "name": "imthenachoman /\n\n      How-To-Secure-A-Linux-Server",
+      "description": "An evolving how-to guide for securing a Linux server.",
+      "language": "",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
+      "builders": []
+    },
+    {
+      "name": "apernet /\n\n      hysteria",
+      "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "language": "Go",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/apernet/hysteria",
+      "builders": []
+    },
+    {
+      "name": "rasbt /\n\n      LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "language": "Jupyter Notebook",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "builders": []
+    },
+    {
+      "name": "ton-blockchain /\n\n      acton",
+      "description": "Toolchain for TON smart contract development and beyond",
+      "language": "Rust",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/ton-blockchain/acton",
+      "builders": []
+    },
+    {
+      "name": "trycua /\n\n      cua",
+      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+      "language": "HTML",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/trycua/cua",
+      "builders": []
+    },
+    {
+      "name": "github /\n\n      spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "stars": 0,
+      "forks": 0,
+      "todayStars": 0,
+      "url": "https://github.com/github/spec-kit",
+      "builders": []
+    }
+  ]
 }
