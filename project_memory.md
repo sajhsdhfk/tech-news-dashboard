@@ -51,7 +51,15 @@
 - **初始提交**: Commit SHA: `7cec41d`
 - **第二次提交**: Commit SHA: `b0f9759` - 删除重复的 types.ts 文件
 - **第三次提交**: Commit SHA: `9fa3fa8` - 添加 .next 到 gitignore
+- **第四次提交**: Commit SHA: `0a1f8cc` - 从追踪中移除 .next 构建产物
 - **构建验证**: Next.js 构建成功，无类型错误
+- **代码推送**: 已推送到 GitHub 仓库 sajhsdhfk/tech-news-dashboard
+
+### 待完成配置
+
+1. 在 GitHub 仓库中配置 Pages 部署源
+2. 手动触发首次 GitHub Actions 工作流
+3. 验证网站可访问
 
 ### 项目目录结构
 
