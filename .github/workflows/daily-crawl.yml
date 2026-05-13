@@ -39,7 +39,9 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git diff --quiet public/data/trending.json || echo "has_changes=true" >> $GITHUB_OUTPUT
+          if ! git diff --quiet public/data/trending.json; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push if changed
         if: steps.git-check.outputs.has_changes == 'true'
@@ -48,7 +50,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add public/data/trending.json
           git commit -m "chore: update trending data $(date +'%Y-%m-%d')"
-          git push
+          git push || echo "Push failed, but continuing..."
 
       - name: Build Next.js for GitHub Pages
         run: npm run build
